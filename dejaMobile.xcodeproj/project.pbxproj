@@ -7,21 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E38DD709C527E15993F639E /* Pods_dejaMobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42C77D8F529A2EFFCAAAA06E /* Pods_dejaMobile.framework */; };
 		C6F2A94E228AE707004704B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F2A94D228AE707004704B6 /* AppDelegate.swift */; };
-		C6F2A950228AE707004704B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F2A94F228AE707004704B6 /* ViewController.swift */; };
-		C6F2A953228AE707004704B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6F2A951228AE707004704B6 /* Main.storyboard */; };
-		C6F2A955228AE709004704B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6F2A954228AE709004704B6 /* Assets.xcassets */; };
-		C6F2A958228AE709004704B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6F2A956228AE709004704B6 /* LaunchScreen.storyboard */; };
+		C6F2A950228AE707004704B6 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F2A94F228AE707004704B6 /* UserViewController.swift */; };
+		C6F2A975228AF3E6004704B6 /* UserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6F2A974228AF3E6004704B6 /* UserViewController.xib */; };
+		C6F2A977228AF4CF004704B6 /* UserModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F2A976228AF4CF004704B6 /* UserModels.swift */; };
+		C6F2A979228AF517004704B6 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F2A978228AF517004704B6 /* NetworkManager.swift */; };
+		C6F2A97B228B0B23004704B6 /* CardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6F2A97A228B0B23004704B6 /* CardViewController.xib */; };
+		C6F2A97D228B0E5C004704B6 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F2A97C228B0E5C004704B6 /* CardViewController.swift */; };
+		C6F2A97F228B77DE004704B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6F2A97E228B77DE004704B6 /* Assets.xcassets */; };
+		C6F2A981228C26FE004704B6 /* CardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6F2A980228C26FE004704B6 /* CardCell.xib */; };
+		C6F2A983228C30A5004704B6 /* CardModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F2A982228C30A5004704B6 /* CardModels.swift */; };
+		C6F2A986228C32E7004704B6 /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F2A985228C32E7004704B6 /* CardCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		301F8A891F74B9AA4E1B15BA /* Pods-dejaMobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dejaMobile.release.xcconfig"; path = "Target Support Files/Pods-dejaMobile/Pods-dejaMobile.release.xcconfig"; sourceTree = "<group>"; };
+		42C77D8F529A2EFFCAAAA06E /* Pods_dejaMobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dejaMobile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6F2A94A228AE707004704B6 /* dejaMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dejaMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6F2A94D228AE707004704B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C6F2A94F228AE707004704B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C6F2A952228AE707004704B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C6F2A954228AE709004704B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C6F2A957228AE709004704B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C6F2A94F228AE707004704B6 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
 		C6F2A959228AE709004704B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6F2A974228AF3E6004704B6 /* UserViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserViewController.xib; sourceTree = "<group>"; };
+		C6F2A976228AF4CF004704B6 /* UserModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModels.swift; sourceTree = "<group>"; };
+		C6F2A978228AF517004704B6 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		C6F2A97A228B0B23004704B6 /* CardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardViewController.xib; sourceTree = "<group>"; };
+		C6F2A97C228B0E5C004704B6 /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+		C6F2A97E228B77DE004704B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6F2A980228C26FE004704B6 /* CardCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardCell.xib; sourceTree = "<group>"; };
+		C6F2A982228C30A5004704B6 /* CardModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModels.swift; sourceTree = "<group>"; };
+		C6F2A985228C32E7004704B6 /* CardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
+		C786421829296B4816521A1C /* Pods-dejaMobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dejaMobile.debug.xcconfig"; path = "Target Support Files/Pods-dejaMobile/Pods-dejaMobile.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +45,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E38DD709C527E15993F639E /* Pods_dejaMobile.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A5EC3BE69531F3C7ED8AAB0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42C77D8F529A2EFFCAAAA06E /* Pods_dejaMobile.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9697867DAB22932EC951BE07 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C786421829296B4816521A1C /* Pods-dejaMobile.debug.xcconfig */,
+				301F8A891F74B9AA4E1B15BA /* Pods-dejaMobile.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C6F2A941228AE707004704B6 = {
 			isa = PBXGroup;
 			children = (
 				C6F2A94C228AE707004704B6 /* dejaMobile */,
 				C6F2A94B228AE707004704B6 /* Products */,
+				9697867DAB22932EC951BE07 /* Pods */,
+				5A5EC3BE69531F3C7ED8AAB0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +91,59 @@
 			isa = PBXGroup;
 			children = (
 				C6F2A94D228AE707004704B6 /* AppDelegate.swift */,
-				C6F2A94F228AE707004704B6 /* ViewController.swift */,
-				C6F2A951228AE707004704B6 /* Main.storyboard */,
-				C6F2A954228AE709004704B6 /* Assets.xcassets */,
-				C6F2A956228AE709004704B6 /* LaunchScreen.storyboard */,
+				C6F2A96E228AF357004704B6 /* Views */,
+				C6F2A96D228AF346004704B6 /* ViewControllers */,
+				C6F2A96C228AF33A004704B6 /* Models */,
+				C6F2A973228AF3B3004704B6 /* Managers */,
 				C6F2A959228AE709004704B6 /* Info.plist */,
+				C6F2A97E228B77DE004704B6 /* Assets.xcassets */,
 			);
 			path = dejaMobile;
+			sourceTree = "<group>";
+		};
+		C6F2A96C228AF33A004704B6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C6F2A976228AF4CF004704B6 /* UserModels.swift */,
+				C6F2A982228C30A5004704B6 /* CardModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C6F2A96D228AF346004704B6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C6F2A94F228AE707004704B6 /* UserViewController.swift */,
+				C6F2A97C228B0E5C004704B6 /* CardViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C6F2A96E228AF357004704B6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C6F2A984228C32CE004704B6 /* UITableViewCell */,
+				C6F2A974228AF3E6004704B6 /* UserViewController.xib */,
+				C6F2A97A228B0B23004704B6 /* CardViewController.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C6F2A973228AF3B3004704B6 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				C6F2A978228AF517004704B6 /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		C6F2A984228C32CE004704B6 /* UITableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				C6F2A985228C32E7004704B6 /* CardCell.swift */,
+				C6F2A980228C26FE004704B6 /* CardCell.xib */,
+			);
+			path = UITableViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +153,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C6F2A95C228AE709004704B6 /* Build configuration list for PBXNativeTarget "dejaMobile" */;
 			buildPhases = (
+				39A315FFC0A25FF6CB4DC036 /* [CP] Check Pods Manifest.lock */,
 				C6F2A946228AE707004704B6 /* Sources */,
 				C6F2A947228AE707004704B6 /* Frameworks */,
 				C6F2A948228AE707004704B6 /* Resources */,
+				134E1274D5A31EA83AF2A14F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,44 +206,78 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6F2A958228AE709004704B6 /* LaunchScreen.storyboard in Resources */,
-				C6F2A955228AE709004704B6 /* Assets.xcassets in Resources */,
-				C6F2A953228AE707004704B6 /* Main.storyboard in Resources */,
+				C6F2A97B228B0B23004704B6 /* CardViewController.xib in Resources */,
+				C6F2A975228AF3E6004704B6 /* UserViewController.xib in Resources */,
+				C6F2A97F228B77DE004704B6 /* Assets.xcassets in Resources */,
+				C6F2A981228C26FE004704B6 /* CardCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		134E1274D5A31EA83AF2A14F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dejaMobile/Pods-dejaMobile-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-dejaMobile/Pods-dejaMobile-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		39A315FFC0A25FF6CB4DC036 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dejaMobile-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C6F2A946228AE707004704B6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6F2A950228AE707004704B6 /* ViewController.swift in Sources */,
+				C6F2A986228C32E7004704B6 /* CardCell.swift in Sources */,
+				C6F2A979228AF517004704B6 /* NetworkManager.swift in Sources */,
+				C6F2A97D228B0E5C004704B6 /* CardViewController.swift in Sources */,
+				C6F2A950228AE707004704B6 /* UserViewController.swift in Sources */,
+				C6F2A977228AF4CF004704B6 /* UserModels.swift in Sources */,
 				C6F2A94E228AE707004704B6 /* AppDelegate.swift in Sources */,
+				C6F2A983228C30A5004704B6 /* CardModels.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		C6F2A951228AE707004704B6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C6F2A952228AE707004704B6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C6F2A956228AE709004704B6 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C6F2A957228AE709004704B6 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C6F2A95A228AE709004704B6 /* Debug */ = {
@@ -280,9 +398,12 @@
 		};
 		C6F2A95D228AE709004704B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C786421829296B4816521A1C /* Pods-dejaMobile.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52P4468FJQ;
 				INFOPLIST_FILE = dejaMobile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -297,9 +418,12 @@
 		};
 		C6F2A95E228AE709004704B6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 301F8A891F74B9AA4E1B15BA /* Pods-dejaMobile.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52P4468FJQ;
 				INFOPLIST_FILE = dejaMobile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

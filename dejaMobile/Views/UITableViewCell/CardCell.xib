@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Bold.ttf">
+            <string>Lato-Bold</string>
+        </array>
+        <array key="Lato-Medium.ttf">
+            <string>Lato-Medium</string>
+        </array>
+        <array key="Lato-Regular.ttf">
+            <string>Lato-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="CardCell" id="p2Q-zV-e0K" userLabel="CardCell" customClass="CardCell" customModule="dejaMobile" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="p2Q-zV-e0K" id="jE7-df-K3R">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="79.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a5a-IM-78c">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="79.5"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BIh-jj-ucc" userLabel="View separator">
+                                <rect key="frame" x="0.0" y="77.5" width="320" height="1"/>
+                                <color key="backgroundColor" red="0.89019607840000003" green="0.89019607840000003" blue="0.89019607840000003" alpha="0.80150155140000001" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="kaL-3r-BxL"/>
+                                </constraints>
+                            </view>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="card-icon-active" translatesAutoresizingMaskIntoConstraints="NO" id="hlk-wS-kMU">
+                                <rect key="frame" x="12" y="12" width="56" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="AdE-c9-t8c"/>
+                                    <constraint firstAttribute="width" constant="56" id="gTW-Oz-FUU"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Card name " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="SaG-Cl-nXV">
+                                <rect key="frame" x="76" y="0.0" width="236" height="35.5"/>
+                                <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="14"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="XXX XXX XXX 4234" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="gvy-p9-hJx">
+                                <rect key="frame" x="76" y="35.5" width="120" height="17"/>
+                                <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="14"/>
+                                <color key="textColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Active" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eXE-xA-LTF" userLabel="Label State">
+                                <rect key="frame" x="76" y="58.5" width="33.5" height="14"/>
+                                <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="12"/>
+                                <color key="textColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="expire le 31/12/2018" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vc7-JL-W3a">
+                                <rect key="frame" x="202" y="58.5" width="110" height="14"/>
+                                <fontDescription key="fontDescription" name="Lato-Medium" family="Lato" pointSize="12"/>
+                                <color key="textColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20 000,20 $" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="ebv-pK-KkG">
+                                <rect key="frame" x="232" y="37" width="80" height="14"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="n8b-hq-M90"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="BIh-jj-ucc" secondAttribute="bottom" constant="1" id="8cv-gI-szd"/>
+                            <constraint firstAttribute="trailing" secondItem="vc7-JL-W3a" secondAttribute="trailing" constant="8" id="Cld-eO-bbx"/>
+                            <constraint firstItem="SaG-Cl-nXV" firstAttribute="leading" secondItem="hlk-wS-kMU" secondAttribute="trailing" constant="8" id="DbI-Cc-gws"/>
+                            <constraint firstItem="hlk-wS-kMU" firstAttribute="leading" secondItem="a5a-IM-78c" secondAttribute="leading" constant="12" id="IpZ-av-ece"/>
+                            <constraint firstItem="BIh-jj-ucc" firstAttribute="top" secondItem="vc7-JL-W3a" secondAttribute="bottom" constant="5" id="JK3-3K-PXr"/>
+                            <constraint firstItem="gvy-p9-hJx" firstAttribute="top" secondItem="SaG-Cl-nXV" secondAttribute="bottom" id="KMM-hs-cGa"/>
+                            <constraint firstItem="BIh-jj-ucc" firstAttribute="top" secondItem="eXE-xA-LTF" secondAttribute="bottom" constant="5" id="QrG-6S-vSu"/>
+                            <constraint firstAttribute="trailing" secondItem="ebv-pK-KkG" secondAttribute="trailing" constant="8" id="XCd-1v-2fe"/>
+                            <constraint firstItem="SaG-Cl-nXV" firstAttribute="top" secondItem="a5a-IM-78c" secondAttribute="top" id="bGF-uy-n95"/>
+                            <constraint firstItem="ebv-pK-KkG" firstAttribute="centerY" secondItem="a5a-IM-78c" secondAttribute="centerY" constant="4" id="dOT-Q3-6MV"/>
+                            <constraint firstAttribute="trailing" secondItem="BIh-jj-ucc" secondAttribute="trailing" id="fOL-qi-7bK"/>
+                            <constraint firstItem="hlk-wS-kMU" firstAttribute="centerY" secondItem="a5a-IM-78c" secondAttribute="centerY" id="mCj-4Y-m3h"/>
+                            <constraint firstItem="BIh-jj-ucc" firstAttribute="leading" secondItem="a5a-IM-78c" secondAttribute="leading" id="mj8-fp-G2r"/>
+                            <constraint firstItem="eXE-xA-LTF" firstAttribute="leading" secondItem="hlk-wS-kMU" secondAttribute="trailing" constant="8" id="naV-wb-BGh"/>
+                            <constraint firstItem="gvy-p9-hJx" firstAttribute="centerY" secondItem="a5a-IM-78c" secondAttribute="centerY" constant="4" id="o4U-VN-59p"/>
+                            <constraint firstAttribute="trailing" secondItem="SaG-Cl-nXV" secondAttribute="trailing" constant="8" id="zCa-8E-FdC"/>
+                            <constraint firstItem="gvy-p9-hJx" firstAttribute="leading" secondItem="hlk-wS-kMU" secondAttribute="trailing" constant="8" id="zPm-UH-DkW"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstItem="a5a-IM-78c" firstAttribute="top" secondItem="jE7-df-K3R" secondAttribute="top" id="DAg-w5-Reo"/>
+                    <constraint firstAttribute="trailing" secondItem="a5a-IM-78c" secondAttribute="trailing" id="G6b-yt-0YL"/>
+                    <constraint firstItem="a5a-IM-78c" firstAttribute="leading" secondItem="jE7-df-K3R" secondAttribute="leading" id="Syi-kq-Qtl"/>
+                    <constraint firstAttribute="bottom" secondItem="a5a-IM-78c" secondAttribute="bottom" id="uTm-D6-mNh"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color key="tintColor" red="0.90588235289999997" green="0.3294117647" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <connections>
+                <outlet property="cardExp" destination="vc7-JL-W3a" id="C8i-Eo-169"/>
+                <outlet property="cardIcon" destination="hlk-wS-kMU" id="OU8-dh-vjw"/>
+                <outlet property="cardName" destination="SaG-Cl-nXV" id="Ptn-AZ-nv8"/>
+                <outlet property="cardNumber" destination="gvy-p9-hJx" id="Qrw-bM-1qA"/>
+                <outlet property="credit" destination="ebv-pK-KkG" id="o5C-7A-lVS"/>
+                <outlet property="statut" destination="eXE-xA-LTF" id="pZn-t2-jRj"/>
+            </connections>
+            <point key="canvasLocation" x="-873.60000000000002" y="217.69115442278863"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="card-icon-active" width="56" height="56"/>
+    </resources>
+</document>
